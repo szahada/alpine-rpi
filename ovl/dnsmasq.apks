@@ -1,0 +1,3 @@
+^dnsmasq-common-[0-9].*
+^dnsmasq-[0-9].*
+^dnsmasq-openrc-[0-9].*

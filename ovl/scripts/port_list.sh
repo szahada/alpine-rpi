@@ -1,0 +1,2 @@
+ss -ntl || netstat -tuanp
+

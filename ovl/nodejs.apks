@@ -1,0 +1,10 @@
+^ca-certificates-[0-9].*
+^libstdc.*-[0-9].*
+^libstdc.*-dev-[0-9].*
+^ada-libs-[0-9].*
+^icu-data-en-[0-9].*
+^icu-libs-[0-9].*
+^simdjson-[0-9].*
+^simdutf-[0-9].*
+^sqlite-libs-[0-9].*
+^nodejs-[0-9].*

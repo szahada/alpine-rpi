@@ -1,0 +1,19 @@
+{
+  "description": "Default deny all policy",
+ 
+  "variable": { "internet": "wlan0" },
+ 
+  "zone": {
+    "WAN": { "iface": "$internet" },
+    "LAN": { "iface": "usb0" }
+  },
+ 
+  "policy": [
+    { "in": "WAN", "action": "reject" },
+    { "out": "WAN", "action": "reject" },
+    { "in": "LAN", "action": "reject" },
+    { "out": "LAN", "action": "reject" },
+    { "action": "reject" }
+  ]
+ 
+}

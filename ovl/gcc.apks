@@ -1,0 +1,11 @@
+^jansson-[0-9].*
+^libstdc.*-[0-9].*
+^libstdc.*-dev-[0-9].*
+^binutils-[0-9].*
+^libgomp-[0-9].*
+^libatomic-[0-9].*
+^isl26-[0-9].*
+^mpfr4-[0-9].*
+^mpc1-[0-9].*
+^gcc-[0-9].*
+^musl-dev-[0-9].*

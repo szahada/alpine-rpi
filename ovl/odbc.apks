@@ -1,0 +1,6 @@
+^pkgconf-[0-9].*
+^readline-[0-9].*
+^libncursesw-[0-9].*
+^ncurses-terminfo-base-[0-9].*
+^unixodbc-[0-9].*
+^unixodbc-dev-[0-9].*

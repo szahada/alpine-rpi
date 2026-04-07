@@ -1,0 +1,2 @@
+sha1sum /dev/zero | sha1sum /dev/zero
+

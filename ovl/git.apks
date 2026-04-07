@@ -1,0 +1,9 @@
+^c-ares-[0-9].*
+^nghttp2-libs-[0-9].*
+^nghttp3-[0-9].*
+^libpsl-[0-9].*
+^libcurl-[0-9].*
+^libexpat-[0-9].*
+^rsync-openrc-[0-9].*
+^git-init-template-[0-9].*
+^git-[0-9].*

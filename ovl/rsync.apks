@@ -1,0 +1,5 @@
+^acl-libs-[0-9].*
+^lz4-libs-[0-9].*
+^popt-[0-9].*
+^libxxhash-[0-9].*
+^rsync-[0-9].*

@@ -1,0 +1,30 @@
+{
+  "description": "Allow DHCP",
+
+  "filter": [
+    {
+      "in": "WAN",
+      "out": "_fw",
+      "service": [ "dhcp", "dhcpv6"],
+      "action": "accept"
+    },
+    {
+      "in": "_fw",
+      "out": "WAN",
+      "service": [ "dhcp", "dhcpv6"],
+      "action": "accept"
+    },
+    {
+      "in": "LAN",
+      "out": "_fw",
+      "service": [ "dhcp", "dhcpv6"],
+      "action": "accept"
+    },
+    {
+      "in": "_fw",
+      "out": "LAN",
+      "service": [ "dhcp", "dhcpv6"],
+      "action": "accept"
+    }
+  ]
+}
