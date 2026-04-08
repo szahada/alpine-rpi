@@ -1,8 +1,12 @@
 # alpine-rpi
 
-deploy in memory alpine linux on raspberry pi
+headless deploy in memory alpine linux on raspberry pi
 
 ## Getting Started
+
+### GPIO
+
+![alt pi0-pinout](https://github.com/szahada/alpine-rpi/blob/main/pi0-pinout.png)
 
 ### Prerequisites
 
