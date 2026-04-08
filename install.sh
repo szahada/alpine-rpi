@@ -173,6 +173,7 @@ display
 gpiomem
 sshd
 install rsync
+install tzdata
 basic
 
 if [ ! -z "$(get gadget)" ]&&[ "$(get gadget)" -eq 1 ]

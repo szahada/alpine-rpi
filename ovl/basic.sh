@@ -42,6 +42,9 @@ echo \"/srv/apks/main
 /srv/apks/community\" >> /etc/apk/repositories
 . /tmp/apk_install.sh
 
+logger -st \"$(get overlay)\" localtime
+ln -s /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
+
 logger -st \"$(get overlay)\" set lo
 echo \"auto lo
 iface lo inet loopback
