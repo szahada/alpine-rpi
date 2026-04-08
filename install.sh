@@ -206,8 +206,8 @@ more_apks odbc
 npm
 TODO
 
-chown -R 1000:1000 "${rootdir}"
+chown -R root:root "${rootdir}"
 deploy
-
+chown -R 1000:1000 "${rootdir}"
 #############################################
 
