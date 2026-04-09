@@ -198,6 +198,7 @@ more_apks nodejs
 more_apks pkgconf
 more_apks libgpiod community
 more_apks make
+more_apks linux-headers
 more_apks gcc
 more_apks awall
 more_apks sqlite

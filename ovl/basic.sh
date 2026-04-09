@@ -13,6 +13,9 @@ basic () {
 # create basic.sh
   echo "#!/bin/sh
 
+logger -st \"$(get overlay)\" set date
+date -s \"2026-04-01 00:00:01\"
+
 logger -st \"$(get overlay)\" set colors
 mv /etc/profile.d/color_prompt.sh.disabled /etc/profile.d/color_prompt.sh
 
